@@ -1,11 +1,15 @@
-var api = 'http://108.61.198.115:32348';
-var apiList = ["http://45.32.232.11:32348", "http://35.204.35.191:32348"];
-var blockTargetInterval = 240;
-var coinUnits = 1000000000000;
-var symbol = 'KRB';
+var api = 'http://blockexplorer.videogamescoin.org:32308';
+var apiList = ["http://uspool.videogamescoin.org:32307"];
+var blockTargetInterval = 120;
+var coinUnits = 10000000000;
+var symbol = 'VGC';
 var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
+    "VGC": [
+		["videogamescoin.poolclub.cafe", "http://videogamescoin.poolclub.cafe:8117"],
+		["uspool.videogamescoin.org", "http://uspool.videogamescoin.org:8117"]
+    ],
     "krb": [
 		["karbo.hashvault.pro", "https://karbo.hashvault.pro/api/pool/stats"],
 		["krb.semipool.com", "https://krb-api.semipool.com/pool/stats"],
